@@ -1,0 +1,158 @@
+
+
+html{
+    font-size: 62.5%;
+    /* 1rem= 10px */
+}
+ body{
+    height:140vh;
+    display: flex;
+    flex-direction: column;
+} 
+h1{
+    margin-bottom: 10px;
+}
+li{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.mainSvg{
+    padding: 1em;
+    margin: 8em;
+    border: 10px solid rgb(43, 151, 16);
+    box-shadow:2px 2px 5px 4px rgba(70, 64, 64, 0.61);
+    border-radius: 10px;
+}
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    right: 0;
+    
+    background-color: #6dbae7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+  }
+  #lists{
+    margin-left: 20px;
+    padding: 8px 8px 8px 32px;
+    color:rgb(14, 13, 13);
+  }
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff7f7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #6b6969;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #45a8e1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
+
+  .exp{
+      background-color: rgb(184, 11, 40);
+      color: white;
+      padding-left: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin: 0;
+      border-radius: 15px;
+  }
+  .svg{
+      size: auto;
+      width: 80em;
+      height: 57em;
+      
+      margin-top: 8em;
+      margin-left: auto; 
+      margin-right: auto;
+      margin-bottom: 4em;
+       }
+       
+       table, th, td {
+        border: 1px solid black;
+        border-radius: 2px;
+        width:25%;
+      }
+
+
+
+
+
+
+  .raysOpen{
+  display: block;
+  }
+  .raysClose{
+  display: none;
+  }
+ #noofmaxima{
+  width:120px;
+  height: 30px;
+  border: 1.5px solid black;
+  
+ }
+ table{
+  /* background-color: #444; */
+  border: none;
+ }
+ table th{
+  font-size: 18px;
+  background-color: #252d42;
+  color: white;
+ }
+ #mainheadingoftable{
+   font-size: 24px;
+   color: white;
+ }
+ table td{
+ background-color: #d1befe;
+ }
+ table td input{
+  border-style: none;
+  font-size: 14px;
+  background-color: #bda1fc;
+ }
+ #print {
+  height: 50px;
+  width: 10%;
+  background-color: #292323;
+  color: white;
+  margin-top: 10px;
+  margin-left: 85%;
+  font-size: large;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.Scalereading{
+  display: inline inline-block;
+}
